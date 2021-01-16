@@ -354,10 +354,10 @@
 # calculate(1,50,expo)
 
 
-import random
+# import random
 
-print(random.random())
+# print(random.random())
 
-
+#----------------------------------
 
 
