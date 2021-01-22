@@ -360,4 +360,72 @@
 
 #----------------------------------
 
+# Errors and Error Handling
 
+
+# try:
+# 	sum = 1 + 5
+# 	print(sum)
+# except NameError:
+# 	x = 1
+# finally:
+# 	sum = 1 + 1
+# 	print(sum)
+
+
+# def cal(a):
+# 	if type(a) == int:
+# 		print(a)
+# 	else:
+# 		raise TypeError("parameter is not an int.")
+
+# cal(True)
+
+
+# assert 2+2 == 4
+# print("Yess")
+
+# assert 3 == 4
+# print("no")
+
+#--------------------------------------------------------
+
+
+# file = open("output.txt","w")
+# file.write("Hii\n")
+# file.writelines("This is Python Lover...")
+# file.close()
+
+
+# inp = open("input.txt","r")
+# data = inp.read()
+# out = open("output.txt","w")
+# out.write(data)
+# out.close()
+# inp.close()
+
+import sys
+
+sys.stdin = open("input.txt","r")
+sys.stdout = open("output.txt","w")
+
+
+# x = input()
+# print("Hii!! This is {}.".format(x))
+dic = {}
+
+def divis(d):
+	for i in range(2,d):
+		for j in range(1,i):
+			if i%j == 0:
+				if i in dic.keys():
+					dic[i] += [j]
+				else:
+					dic[i] = []
+
+t = int(input())
+for i in range(t):
+	d = int(input())
+	divis(d)
+
+print(dic)
