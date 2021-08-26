@@ -404,28 +404,666 @@
 # out.close()
 # inp.close()
 
+# x = input()
+# print("Hii!! This is {}.".format(x))
+# dic = {}
+
+# def divis(d):
+# 	for i in range(2,d):
+# 		for j in range(1,i):
+# 			if i%j == 0:
+# 				if i in dic.keys():
+# 					dic[i] += [j]
+# 				else:
+# 					dic[i] = []
+
+# t = int(input())
+# for i in range(t):
+# 	d = int(input())
+# 	divis(d)
+
+# print(dic)
+
+#index 0 1 2 3 4 5 6 7
+
+# print(nl[0][4])
+
+
+# n = int(input())
+# a = []
+# for i in range(n):
+# 	a.append(int(input()))
+
+# a.sort()
+# print(a)
+# print(len(a))
+
+# x.reverse()
+
+# new_list = x[::-1]
+
+
+
+# print(x)
+# print(new_list)
+
+# x = [1,2,3,4,5,67,89,45,1,2,3,8]
+
+# y = [100,101,34]
+
+# nl = [[1,2,3,4,5],['a','b', 'c'],[]]
+
+# print("b" in nl[1])
+
+#------------------------------------------------------#
+#------------------------------------------------------#
+#------------------------------------------------------#
 import sys
 
 sys.stdin = open("input.txt","r")
 sys.stdout = open("output.txt","w")
+#------------------------------------------------------#
+#------------------------------------------------------#
+#------------------------------------------------------#
 
 
-# x = input()
-# print("Hii!! This is {}.".format(x))
-dic = {}
+# Dictionary
+# key: value
+# eg. key1: "Home"
+# 	key2: "car"
+# 	key3: "bike"
 
-def divis(d):
-	for i in range(2,d):
-		for j in range(1,i):
-			if i%j == 0:
-				if i in dic.keys():
-					dic[i] += [j]
-				else:
-					dic[i] = []
+# keyd = {
+# 	'key1': "Home",
+# 	'key2': "car",
+# 	'key3': "bike"
+# }
 
-t = int(input())
-for i in range(t):
-	d = int(input())
-	divis(d)
+# keyd['key1'] = "Flat"
 
-print(dic)
+# keyd['key4'] = "VillageHouse"
+
+# print('key5' in keyd)
+
+# d = {
+# 	78 : 45,
+# 	67 : 'str',
+# 	's': [1,3],
+# 	0 : False,
+# 	1: True
+# }
+
+# print(list(d.values()))
+
+#--------------------------------------
+
+# Tuples
+
+# con = 'sam','rahul','sam','anne'
+
+# print(con.index('sam'))
+
+#-------------------------------------
+
+# Sets
+
+# d = {1,2,3,4,5,6,3,2,1}
+
+# e = {1,3,5,7,9}
+
+# print(d,e)
+# print(e | d)
+# print(e & d)
+# print(e - d)
+# print(d - e)
+# print(e ^ d)
+
+#------------------------------------
+
+# s = "123"
+
+# # int(s)
+# # bool()
+# # str()
+# # float()
+
+# print(s,type(s))
+
+# s = int(s)
+
+# print(s,type(s))
+
+# s = float(s)
+
+# print(s,type(s))
+
+# s = str(s)
+
+# print(s,type(s))
+
+# s = bool(s)
+
+# print(s,type(s))
+# def even(n):
+# 	if n%2 == 0:
+# 		return True
+# 	else:
+# 		return False
+
+# f = input().split(" ")
+
+# s = input().split(',')
+
+# f = list(map(int,f))
+
+# f = list(filter(even,f))
+
+# print(f)
+# print(s)
+
+#----------------------------
+
+# poly = lambda x: x**3 + 2*x + 5
+
+# print(poly(10))
+
+
+# Generators
+
+# def countdown(n):
+# 	for i in range(n,0,-1):
+# 		yield i
+
+
+# for i in countdown(5):
+# 	print(i)
+
+#-------------------------------------------
+
+# Binary and Bitwise Operators
+
+# Decimal
+# 0
+# 1
+# 2
+# 3
+# 4
+# 5
+# 6
+# 7
+# 8
+# 9
+# 10
+
+
+# Binary
+# 0
+# 1
+
+
+# Conversion Of Decimal To Binary:
+
+# 59 - Decimal
+
+# 2 | 59	1
+# 2 | 29	1
+# 2 | 14	0
+# 2 | 7	1
+# 2 | 3	1
+#   | 1
+
+
+# 111011 -> Binary (59)
+
+# 49 - Deciaml
+
+
+# 2 |  49		1
+# 2 |  24		0
+# 2 |  12		0
+# 2 |  6		0
+# 2 |  3		1
+#   |  1
+
+
+# 110001 -> Binary (49)
+
+#--------------------------------------
+
+# t = int(input())
+
+# for i in range(t):
+# 	n = int(input())
+# 	l = list(map(int,input().split(' ')))
+# 	total = 0
+# 	l.sort()
+# 	l.reverse()
+# 	total = (l[0]*l[1]) + max(l[0]-l[1],l[1]-l[0])
+# 	print(total)
+
+#---------------------------------------------
+
+# Number System and Binary and Bitwise operator (python)
+
+
+# Decimal -> 10 -> (0-9)
+
+# Binary -> 2 -> (0-1)
+
+# Hexadecimal -> 16 -> (0-9 a-f)
+
+# Octal -> 8 -> (0-8)
+
+
+
+# 0
+# 1
+# 2
+# 3
+# 4
+# 5
+# 6
+# 7
+# 8
+# 9
+# 10
+
+
+# 0
+# 1
+
+# 10
+# 11
+
+# 100
+# 101
+
+
+# 0
+# 1
+# 2
+# 3
+# 4
+# 5
+# 6
+# 7
+# 8
+# 9
+# a
+# b
+# c
+# d
+# e
+# f
+# 10
+
+
+
+
+# 0
+# 1
+# 2
+# 3
+# 4
+# 5
+# 6
+# 7
+# 8
+
+# Binary
+
+# 0 and 1
+
+# Binary -> Decimal
+
+# 2 -> 10
+
+# Decimal -> Binary
+
+# 48 -> 110000
+
+# 2 | 48  0
+# 2 | 24  0
+# 2 | 12  0
+# 2 | 6   0
+# 2 | 3   1
+#   | 1
+
+
+# 109 -> 1101101
+
+
+# 2 | 109  1
+# 2 | 54  0
+# 2 | 27  1
+# 2 | 13  1
+# 2 | 6  0
+# 2 | 3  1
+#  | 1  
+
+
+
+# def decitobin(n):
+# 	binaryrep = ''
+# 	while n>=1:
+# 		binaryrep = str(n%2) + binaryrep
+# 		n = n//2
+# 	return(binaryrep)
+
+# print(decitobin(4))
+# print(bin(4)[2:])
+# print(oct(48))
+
+
+
+# 563 == 5*10^2 + 6*10^1 + 3*10^0
+
+# 100 == 1*2^2 + 0*2^1 + 0*2^0
+# 		4		0		0 = 4
+
+
+# def bintodeci(n):
+# 	n = str(n)
+# 	deciformat = 0
+# 	for i in range(len(n)):
+# 		k = len(n) - 1 - i
+# 		deciformat += int(n[i])*(2**k)
+
+# 	return deciformat
+
+# print(bintodeci(110000))
+
+# print(int('1101101',2))
+
+
+
+# print(oct(100))
+
+# print(int('144',8))
+
+#---------------------------------------
+
+# Number System and Binary and Bitwise operator (python)
+
+
+# Decimal -> 10 -> (0-9)
+
+# Binary -> 2 -> (0-1)
+
+# Hexadecimal -> 16 -> (0-9 a-f)
+
+# Octal -> 8 -> (0-8)
+
+
+
+# 0
+# 1
+# 2
+# 3
+# 4
+# 5
+# 6
+# 7
+# 8
+# 9
+# 10
+
+
+# 0
+# 1
+
+# 10
+# 11
+
+# 100
+# 101
+
+
+# 0
+# 1
+# 2
+# 3
+# 4
+# 5
+# 6
+# 7
+# 8
+# 9
+# a
+# b
+# c
+# d
+# e
+# f
+# 10
+
+
+
+
+# 0
+# 1
+# 2
+# 3
+# 4
+# 5
+# 6
+# 7
+# 8
+
+# Binary
+
+# 0 and 1
+
+# Binary -> Decimal
+
+# 2 -> 10
+
+# Decimal -> Binary
+
+# 48 -> 110000
+
+# 2 | 48  0
+# 2 | 24  0
+# 2 | 12  0
+# 2 | 6   0
+# 2 | 3   1
+#   | 1
+
+
+# 109 -> 1101101
+
+
+# 2 | 109  1
+# 2 | 54  0
+# 2 | 27  1
+# 2 | 13  1
+# 2 | 6  0
+# 2 | 3  1
+#  | 1  
+
+
+
+# def decitobin(n):
+# 	binaryrep = ''
+# 	while n>=1:
+# 		binaryrep = str(n%2) + binaryrep
+# 		n = n//2
+# 	return(binaryrep)
+
+# print(decitobin(4))
+# print(bin(4)[2:])
+# print(oct(48))
+
+
+
+# 563 == 5*10^2 + 6*10^1 + 3*10^0
+
+# 100 == 1*2^2 + 0*2^1 + 0*2^0
+# 		4		0		0 = 4
+
+
+# def bintodeci(n):
+# 	n = str(n)
+# 	deciformat = 0
+# 	for i in range(len(n)):
+# 		k = len(n) - 1 - i
+# 		deciformat += int(n[i])*(2**k)
+
+# 	return deciformat
+
+# print(bintodeci(110000))
+
+# print(int('1101101',2))
+
+
+
+# # print(oct(100))
+
+# # print(int('144',8))
+
+# # bitwise operator
+
+# and  -> &
+# or  -> |
+# not -> ~
+# xor  -> ^
+# left shift  -> <<
+# right shift -> >>
+
+
+
+# # truth tables
+
+# and 
+# 1 1  1
+# 1 0  0
+# 0 1  0
+# 0 0  0
+
+# or
+# 1 1  1
+# 1 0  1
+# 0 1  1
+# 0 0  0
+
+# not (1's complement)
+
+# ~1 == -(1+1) 
+# 	  -(10)2
+# 	  -(2)10
+
+
+# xor -> addtion (binary)
+# 1 1 0
+# 1 0 1
+# 0 1 1
+# 0 0 0
+
+
+# n << x == n*2^x
+
+# 0000 1010 << 3 ==  0101 0000
+
+
+
+# n >> x == n/2^x
+
+
+# 0000 1101 >> 2 == 0000 0011
+
+
+
+
+
+# print(~5)# 101 = -(101+1) = -(110) = -6
+
+# print(1000 << 3)# 0001 == 0100 = 4
+# print(200 >> 10)
+
+
+
+# print(45|89)
+
+# print(bin(45),bin(89))
+
+
+# #   0101101
+# # | 1011001
+# #   1111101
+
+# print(int('1111101',2))
+
+#------------------------------------------------------#
+
+# Object Oriented Programming OOP
+
+#class Mobile:
+#	osid = 100
+#	charging = False
+#	def __init__(self,name,battery,memory):
+#		self.name = name
+#		self.battery = battery
+#		self.memory = memory
+#
+#	def __sub__(self,other):
+#		return (self.battery - other.battery, self.memory - other.memory)
+#
+#	@classmethod
+#	def Iphone(cls,battery,memory):
+#		return cls("Iphone Mobiles",battery,memory)
+#	
+#	@staticmethod
+#	def checkvirus(apps):
+#		if apps == "virus":
+#			raise TypeError
+#		else:
+#			return True
+#
+#	@property
+#	def ischarging(self):
+#		return self.charging
+#
+#	@ischarging.setter
+#	def ischarging(self,value):
+#		self.charging = value
+#
+#
+#
+#m1 = Mobile("M1",8000,64)
+#m2 = Mobile("M2",6000,128)
+#
+#print(m2.ischarging)
+#
+#m2.ischarging = 99
+#
+#print(m2.ischarging)
+
+
+# print(m1-m2)
+# print(m2.__sub__(m1))
+# print(Mobile.osid)
+
+# i1 = Mobile.Iphone(5000,128)
+# print(i1.name,i1.battery,i1.memory)
+
+# apps = ["youtube","instagram","virus","temple run","clock"]
+# for app in apps:
+# 	Mobile.checkvirus(app)
+
+
+# __add__
+# __sub__
+# __mul__
+# __truediv__
+# __floordiv__
+# __mod__
+# __pow__
+# __and__
+# __or__
+# __xor__
+
+
+
+
+
+
