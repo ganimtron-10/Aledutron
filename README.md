@@ -4,7 +4,7 @@ All the Contents created and modified in the Youtube Channel.
 
 ### Channel and Playlists
 - [Channel](https://www.youtube.com/channel/UCqmjz897ENq1ySddSkvtUNg)
-- [Playlists](https://www.youtube.com/channel/UCqmjz897ENq1ySddSkvtUNg/playlists)
+- [Playlists / Series](https://www.youtube.com/channel/UCqmjz897ENq1ySddSkvtUNg/playlists)
   - [Learning Python](https://www.youtube.com/watch?v=nSbVhB6XGJQ&list=PLlShVH4JA0ov8rdZyfJM6rZCj3hx7vG3c) -
      Basic Python Series explaining the working and usage of Python - 
       [Content](https://github.com/ganimtron-10/Python-Youtube/blob/master/Learning%20Python%20Series/Python-YouTube.py)
