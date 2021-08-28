@@ -1,6 +1,6 @@
 # Aledutron
 
-All the Content created and modified in the Youtube Channel
+All the Contents created and modified in the Youtube Channel.
 
 ### Channel and Playlists
 - [Channel](https://www.youtube.com/channel/UCqmjz897ENq1ySddSkvtUNg)
