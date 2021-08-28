@@ -6,14 +6,14 @@ All the Content created and modified in the Youtube Channel
 - [Channel](https://www.youtube.com/channel/UCqmjz897ENq1ySddSkvtUNg)
 - [Playlists](https://www.youtube.com/channel/UCqmjz897ENq1ySddSkvtUNg/playlists)
   - [Learning Python](https://www.youtube.com/watch?v=nSbVhB6XGJQ&list=PLlShVH4JA0ov8rdZyfJM6rZCj3hx7vG3c) -
-     Basic Python Series explaining the working and usage of Python.
-     - [Content](https://github.com/ganimtron-10/Python-Youtube/blob/master/Learning%20Python%20Series/Python-YouTube.py)
+     Basic Python Series explaining the working and usage of Python - 
+      [Content](https://github.com/ganimtron-10/Python-Youtube/blob/master/Learning%20Python%20Series/Python-YouTube.py)
   - [Number System and Binary](https://www.youtube.com/watch?v=-t3RTc1OdyE&list=PLlShVH4JA0otDD2VfPGznlb0ArIeovxR-) -
-     Brief Introduction to Number System and Binary
-     - [Content](https://github.com/ganimtron-10/Python-Youtube/blob/master/Learning%20Python%20Series/Python-YouTube.py#L786)
+     Brief Introduction to Number System and Binary - 
+     [Content](https://github.com/ganimtron-10/Python-Youtube/blob/master/Learning%20Python%20Series/Python-YouTube.py#L786)
   - [Sharping Skills](https://www.youtube.com/watch?v=d8UkM4dtfu0&list=PLlShVH4JA0osI8QzFmSY6WviHyOZ3EhR8) -
-     Practing Questions on Codechef to Challenge our skills
-     - [Content](https://github.com/ganimtron-10/Python-Youtube/blob/master/Sharping%20Skills)
+     Practing Questions on Codechef to Challenge our skills - 
+     [Content](https://github.com/ganimtron-10/Python-Youtube/blob/master/Sharping%20Skills)
 
 ### Connect Us
 <a href="https://discord.com/invite/6cvkW9Ef3g">
