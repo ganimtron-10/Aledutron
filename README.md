@@ -14,6 +14,9 @@ All the Contents created and modified in the Youtube Channel.
   - [Sharping Skills](https://www.youtube.com/watch?v=d8UkM4dtfu0&list=PLlShVH4JA0osI8QzFmSY6WviHyOZ3EhR8) -
      Practing Questions on Codechef to Challenge our skills - 
      [Content](https://github.com/ganimtron-10/Python-Youtube/blob/master/Sharping%20Skills)
+  - [SPPU FE PPS LAB](https://www.youtube.com/playlist?list=PLlShVH4JA0osTzddxh-2s1yaigpyp6DRx) -
+     Discussing Questions mentioned in SPPU FE PPS Lab - 
+     [Content](https://github.com/ganimtron-10/Aledutron/tree/master/FE-PPS-LAB)
 
 ### Connect Us
 <a href="https://discord.com/invite/6cvkW9Ef3g">
