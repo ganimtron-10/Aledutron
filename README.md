@@ -17,6 +17,9 @@ All the Contents created and modified in the Youtube Channel.
   - [SPPU FE PPS LAB](https://www.youtube.com/playlist?list=PLlShVH4JA0osTzddxh-2s1yaigpyp6DRx) -
      Discussing Questions mentioned in SPPU FE PPS Lab - 
      [Content](https://github.com/ganimtron-10/Aledutron/tree/master/FE-PPS-LAB)
+  - [SPPU SE DS LAB](https://www.youtube.com/playlist?list=PLlShVH4JA0osUGQB95eJ8h5bTTzJO89vz) -
+     Discussing Questions mentioned in SPPU FE PPS Lab - 
+     [Content](https://github.com/ganimtron-10/Aledutron/tree/master/)
 
 ### Connect Us
 <a href="https://discord.com/invite/6cvkW9Ef3g">
