@@ -18,7 +18,10 @@ All the Contents created and modified in the Youtube Channel.
      Discussing Questions mentioned in SPPU FE PPS Lab - 
      [Content](https://github.com/ganimtron-10/Aledutron/tree/master/FE-PPS-LAB)
   - [SPPU SE DS LAB](https://www.youtube.com/playlist?list=PLlShVH4JA0osUGQB95eJ8h5bTTzJO89vz) -
-     Discussing Questions mentioned in SPPU FE PPS Lab - 
+     Discussing Questions mentioned in SPPU SE DS Lab - 
+     [Content](https://github.com/ganimtron-10/Aledutron/tree/master/SE-DSL-LAB)
+  - [CodeWithAledutron](https://www.youtube.com/playlist?list=PLlShVH4JA0ouB84QySaQnQWgm59NhDvL4) -
+     Discussing Random Programming Questions Live - 
      [Content](https://github.com/ganimtron-10/Aledutron/tree/master/)
 
 ### Connect Us
