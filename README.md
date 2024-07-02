@@ -25,10 +25,10 @@ All the Contents created and modified in the Youtube Channel.
      [Content](https://github.com/ganimtron-10/Aledutron/tree/master/)
 
 ### Connect Us
-<a href="https://discord.com/invite/6cvkW9Ef3g">
+<!-- <a href="https://discord.com/invite/6cvkW9Ef3g">
  <img height="50px" src="https://www.vectorlogo.zone/logos/discordapp/discordapp-tile.svg">
 </a>
-&ensp;
+&ensp; -->
 <a href="https://www.linkedin.com/in/praneeth-shetty-6b0892202/">
  <img height="50px" src="https://www.vectorlogo.zone/logos/linkedin/linkedin-tile.svg">
 </a>
